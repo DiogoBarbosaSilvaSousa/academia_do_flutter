@@ -1,3 +1,18 @@
+"0"==============================================================================
+
+OpenJDK(Java) da Microsoft https://www.microsoft.com/openjdk
+
+Criar link simbólico (-Force caso já tenha criado o link simbólico):
+New-Item -ItemType SymbolicLink -Path "PathDoLink" -Target "Path Do JDK" ou
+New-Item -ItemType SymbolicLink -Path "PathDoLink" -Target "Path Do JDK" -Force
+
+Exemplo:
+New-Item -ItemType SymbolicLink -Path "C:\DevPrograms\Microsoft\jdk\current" -Target "C:\DevPrograms\Microsoft\jdk\jdk-11.0.18.10-hotspot" ou
+New-Item -ItemType SymbolicLink -Path "C:\DevPrograms\Microsoft\jdk\current" -Target "C:\DevPrograms\Microsoft\jdk\jdk-17.0.6.10-hotspot" -Force
+New-Item -ItemType SymbolicLink -Path "C:\DevPrograms\Microsoft\jdk\current" -Target "C:\DevPrograms\Microsoft\jdk\jdk-8.0.362.9-hotspot" -Force
+
+Criar variável JAVA_HOME e adicionar o link simbólico %JAVA_HOME%\bin
+
 
 "1"==============================================================================
 
