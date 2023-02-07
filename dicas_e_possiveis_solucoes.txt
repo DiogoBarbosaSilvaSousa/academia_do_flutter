@@ -63,6 +63,43 @@ instalação escolhido.
 6 - Em cada janela que você acabou de abrir, clique em Aplicar ou OK para fechá-la e 
 aplicar a alteração de caminho.
 
-"4""==============================================================================
+"4"==============================================================================
 
 Preparação de ambiente para usar o Flutter - Link(https://academiadoflutter.com.br/preparacao)
+
+"5"==============================================================================
+
+Extensions instaladas no VSCode:
+
+*Webstorm IntelliJ Darcula Theme 
+https://marketplace.visualstudio.com/items?itemName=xr0master.webstorm-intellij-darcula-theme
+
+*IntelliJ IDEA Keybindings	
+https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings
+
+*vscode-icons
+https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+
+*Awesome Flutter Snippets
+https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets
+
+*Dart Data Class Generator
+https://marketplace.visualstudio.com/items?itemName=hzgood.dart-data-class-generator
+
+*Flutter & Dart Utilities
+https://marketplace.visualstudio.com/items?itemName=RodrigoRahman.flutter-dart-utils
+
+*bloc	
+https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc
+
+*Error Lens
+https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+
+*Image Preview
+https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
+
+*Pubspec Dependency Search
+https://marketplace.visualstudio.com/items?itemName=everettjf.pubspec-dependency-search
+
+*Live Share
+https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
