@@ -1,6 +1,7 @@
 name: dart_funcoes_colecoes
 description: Modulo da academia do flutter de funcoes e colecoes
 version: 1.0.0
+homepage: http://academiadoflutter.com.br
 # repository: https://github.com/my_org/my_repo
 
 environment:
