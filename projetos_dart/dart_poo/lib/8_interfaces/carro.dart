@@ -1,5 +1,5 @@
 // No  dart interfaces e classes abstratas são feitas da mesma forma
-// A diferenteça de uma interface e uma classe abstrata é que uma classe
+// A diferença de uma interface e uma classe abstrata é que uma classe
 // abstrata pode ter médotods implementados.
 
 // Isso seria uma classe abstrata pois possuí métodos implementados!!!
