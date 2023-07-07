@@ -23,3 +23,6 @@ No Dart não existe sobrecarga de construtores.
 
 # Callable class
   Permite chamar alguns métodos da sua classe diretamente.
+
+# Operator Method
+ Todos os operadores são métodos.
