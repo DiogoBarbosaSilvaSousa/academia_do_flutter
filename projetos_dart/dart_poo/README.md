@@ -20,3 +20,6 @@ No Dart não existe sobrecarga de construtores.
 
 # Mixins
  Possibilidade de herança múltipla. Ao utilizar Mixins deve se ter cuidado para não sobrescrever métodos "sem querer".
+
+# Callable class
+  Permite chamar alguns métodos da sua classe diretamente.
