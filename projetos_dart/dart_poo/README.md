@@ -11,9 +11,12 @@ No Dart não existe sobrecarga de construtores.
  A diferença de uma interface e uma classe abstrata é que uma classe
  abstrata pode ter médotods implementados.
 
- # Auto promoção de tipos
+# Auto promoção de tipos
   Auto-promoção
   Quando checamos se a variável é (is) de um tipo
   o dart a converte automaticamente caso ela seja do tipo verificado.
   Variáveis de tipo superior e atributos de classe
   não são auto promovidas para o tipo checado!!!!
+
+# Mixins
+ Possibilidade de herança múltipla. Ao utilizar Mixins deve se ter cuidado para não sobrescrever métodos "sem querer".
