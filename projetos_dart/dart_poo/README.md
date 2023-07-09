@@ -26,3 +26,6 @@ No Dart não existe sobrecarga de construtores.
 
 # Operator Method
  Todos os operadores são métodos.
+
+ # Assignment Operators
+ Operadores de atribuição
