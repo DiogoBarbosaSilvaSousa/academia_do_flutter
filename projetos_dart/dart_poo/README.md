@@ -32,3 +32,5 @@ No Dart não existe sobrecarga de construtores.
 
  # Equals e hashcode
  Toda vez que reescrever o método Equals precisa também reescrever o hashCode.
+
+ # Ordenação default
