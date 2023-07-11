@@ -34,3 +34,6 @@ No Dart não existe sobrecarga de construtores.
  Toda vez que reescrever o método Equals precisa também reescrever o hashCode.
 
  # Ordenação default
+
+ # Asserts
+ É uma "afirmação". Validações no construtor.
