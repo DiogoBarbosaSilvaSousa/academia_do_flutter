@@ -39,4 +39,6 @@ No Dart não existe sobrecarga de construtores.
  É uma "afirmação". Validações no construtor.
 
  # Modificadores
- 
+
+ # Extensions
+  Capacidade de adicionar funções dentro de classes que não possuímos o código fonte.
