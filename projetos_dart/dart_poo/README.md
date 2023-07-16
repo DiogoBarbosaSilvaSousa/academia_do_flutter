@@ -48,3 +48,5 @@ No Dart não existe sobrecarga de construtores.
 
   # Getters e Setters
   Encapasulamento de atributos
+
+  # Constructors Tear-off
