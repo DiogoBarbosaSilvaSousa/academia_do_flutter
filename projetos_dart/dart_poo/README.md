@@ -45,3 +45,6 @@ No Dart não existe sobrecarga de construtores.
 
   # Metadatas
   Criação de "anotações" exemplo @override
+
+  # Getters e Setters
+  Encapasulamento de atributos
