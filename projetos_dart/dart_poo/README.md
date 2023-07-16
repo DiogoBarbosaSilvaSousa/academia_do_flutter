@@ -52,4 +52,5 @@ No Dart não existe sobrecarga de construtores.
   # Constructors Tear-off
 
   # Part of
-  
+
+  # Conversões
