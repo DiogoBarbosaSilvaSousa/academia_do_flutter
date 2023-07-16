@@ -42,3 +42,6 @@ No Dart não existe sobrecarga de construtores.
 
  # Extensions
   Capacidade de adicionar funções dentro de classes que não possuímos o código fonte.
+
+  # Metadatas
+  Criação de "anotações" exemplo @override
