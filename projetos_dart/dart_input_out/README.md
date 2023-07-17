@@ -6,10 +6,14 @@ O método readLineSync() do stdin permite capturar uma String do console.
 
 - Erro "UnimplementedError: Global evaluation not currently supported" o depurador do VS Code para Dart/Flutter atualmente não suporta avaliação global.
 - Executando: Abra o terminal no VS Code. Caso não consiga abrir o terminal, siga os seguintes passos.
-> Procure por "Terminal" na barra superior da página do VS Code. Clique no terminal e clique em "Executar arquivo ativo". 
+> Procure por "Terminal" na barra superior da página do VS Code. Clique no terminal e clique em "Executar arquivo ativo".
+
 > Escreva dart run [nome do seu arquivo.dart] (ignore os colchetes) e pressione enter.
+
 > Exemplo: dart run e:\academia_do_flutter\projetos_dart\dart_input_out\lib\dart_input_out.dart
+
 > Dependendo do tipo de Terminal que esteja usando se você estiver dentro da pasta do arquivo não precisa colocar todo o caminho como fiz acima.
+
 > Exemplo: "e:\academia_do_flutter\projetos_dart\dart_input_out\lib\" 
 
 ### Windows Terminal (Para quem usa o Windows 10)
@@ -48,6 +52,7 @@ void main()
 
 #### Exemplos
 
+Ex - 1
 ```
 // importando dart:io arquivo
 import 'dart:io';
@@ -62,7 +67,7 @@ void main()
     print("Olá, $nome! \nBem-vindo a linha de comando do Dart!!");
 }
 ```
-
+Ex - 2
 ```
 import 'dart:convert';
 import 'dart:io';
@@ -74,7 +79,7 @@ void main() {
 }
 
 ```
-
+Ex - 3
 ```
 import 'dart:io';
 
@@ -92,6 +97,7 @@ void main()
     print("Seu número favorito é $n");
 }
 ```
+Ex - 4
 ```
 import 'dart:io';
 
