@@ -29,7 +29,8 @@ No dart, há duas maneiras de exibir a saída no console:
 - Usando a instrução stdout.write().
 
 Imprimindo a saída de duas maneiras diferentes:
-'''
+
+```
 import 'dart:io';
 
 void main()
@@ -39,7 +40,7 @@ void main()
   // Segunda forma de imprimir
   stdout.write("Welcome to GeeksforGeeks! // Imprimindo usando stdout.write()");
 }
-'''
+```
 
 > Nota: 
 > A instrução print() traz o cursor para a próxima linha enquanto stdout.write() não traz o cursor para a próxima linha, ele permanece na mesma linha.
@@ -47,7 +48,7 @@ void main()
 
 #### Exemplos
 
-'''
+```
 // importando dart:io arquivo
 import 'dart:io';
 
@@ -60,9 +61,9 @@ void main()
     // Printing the name
     print("Olá, $nome! \nBem-vindo a linha de comando do Dart!!");
 }
-'''
+```
 
-'''
+```
 import 'dart:convert';
 import 'dart:io';
 
@@ -72,9 +73,9 @@ void main() {
   print(linha?.trim() == '2' ? 'Sim!' : 'Não :(');
 }
 
-'''
+```
 
-'''
+```
 import 'dart:io';
 
 void main()
@@ -90,9 +91,8 @@ void main()
     // Imprimindo o número
     print("Seu número favorito é $n");
 }
-'''
-
-'''
+```
+```
 import 'dart:io';
 
 void main()
@@ -107,6 +107,6 @@ void main()
   print("A soma é $sum");
 }
 
-'''
+```
 
 https://www.geeksforgeeks.org/dart-standard-input-output/
