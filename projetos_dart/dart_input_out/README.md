@@ -6,6 +6,7 @@ O método readLineSync() do stdin permite capturar uma String do console.
 
 - Erro "UnimplementedError: Global evaluation not currently supported" o depurador do VS Code para Dart/Flutter atualmente não suporta avaliação global.
 - Executando: Abra o terminal no VS Code. Caso não consiga abrir o terminal, siga os seguintes passos.
+
 > Procure por "Terminal" na barra superior da página do VS Code. Clique no terminal e clique em "Executar arquivo ativo".
 
 > Escreva dart run [nome do seu arquivo.dart] (ignore os colchetes) e pressione enter.
@@ -110,7 +111,7 @@ void main()
   int? n2 = int.parse(stdin.readLineSync()!);
   // Somando e imprimindo o resultado
   int soma = n1 + n2;
-  print("A soma é $sum");
+  print("A soma é $soma");
 }
 
 ```

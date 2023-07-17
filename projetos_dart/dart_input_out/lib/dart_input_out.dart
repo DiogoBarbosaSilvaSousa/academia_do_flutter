@@ -1,10 +1,12 @@
 import 'dart:io';
 
 void main() {
-  print("Digite seu nome?");
-  // Lendo o nome digitado
-  String? nome = stdin.readLineSync(); // null safety in name string
-
-  // Printing the name
-  print("Olá, $nome! \nBem-vindo a linha de comando do Dart!!");
+  print("-----------Somando dois números-----------");
+  print("Digite o primeiro número:");
+  int? n1 = int.parse(stdin.readLineSync()!);
+  print("Digite o segundo número:");
+  int? n2 = int.parse(stdin.readLineSync()!);
+  // Somando e imprimindo o resultado
+  int soma = n1 + n2;
+  print("A soma é $soma");
 }
