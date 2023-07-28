@@ -1,0 +1,26 @@
+{
+    "nome":"Rodrigo Rahman",
+    "idade": 39,
+    "nomeCursos":["Academia do Flutter", "Imersão GetX"],
+    "cursos": [
+        {
+            "id": 1,
+            "nome": "Academia do Flutter",
+            "isAluno": true
+        },
+        {
+            "id": 2,
+            "nome": "Imersão GetX",
+            "isAluno": false
+        }
+    ],
+    "endereco": {
+        "rua": "Rua X",
+        "numero": 200,
+        "CEP": "21220160",
+        "telefone" : {
+            "ddd": 21,
+            "numero": "99934392"
+        }
+    }
+}
