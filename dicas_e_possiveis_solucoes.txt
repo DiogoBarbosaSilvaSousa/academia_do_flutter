@@ -50,7 +50,7 @@ the path change.
 
 *Tradução (Português)*
 Por padrão, o SDK é instalado em C:\tools\dart-sdk. Você pode alterar esse local 
-definindo a ChocolateyToolsLocationvariável de ambiente para o diretório de 
+definindo a ChocolateyToolsLocation variável de ambiente para o diretório de 
 instalação escolhido.
 
 *Se você não puder usar os executáveis ​​do Dart SDK, adicione o local do SDK ao seu PATH:
@@ -59,7 +59,7 @@ instalação escolhido.
 2 - Clique em Editar as variáveis ​​de ambiente do sistema .
 3 - Clique em Variáveis ​​de Ambiente… .
 4 - Na seção de variável de usuário, selecione Caminho e clique em Editar… .
-5 - Clique em Novo e insira o caminho para o dart-sdkdiretório.
+5 - Clique em Novo e insira o caminho para o dart-sdk diretório.
 6 - Em cada janela que você acabou de abrir, clique em Aplicar ou OK para fechá-la e 
 aplicar a alteração de caminho.
 
