@@ -40,9 +40,9 @@ class Aluno {
 
   factory Aluno.fromMap(Map<String, dynamic> map) {
     return Aluno(
-      id: map['id'],
-      nome: map['nome'],
-      nomeCursos: List<String>.from(map['nomeCursos']),
+      id: map['id'] ?? 0,
+      nome: map['nome'] ?? '',
+      nomeCursos: List<String>.from(map['nomeCursos'] ?? <String>[]),
       cursos: map['cursos']
               .map<Curso>((cursoMap) => Curso.fromMap(cursoMap))
               .toList() ??

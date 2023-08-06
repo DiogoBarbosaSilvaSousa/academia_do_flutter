@@ -9,4 +9,7 @@ void main() {
   // Somando e imprimindo o resultado
   int soma = n1 + n2;
   print("A soma é $soma");
+
+  // Impedindo o terminal de fechar de forma automática
+  stdin.readLineSync();
 }

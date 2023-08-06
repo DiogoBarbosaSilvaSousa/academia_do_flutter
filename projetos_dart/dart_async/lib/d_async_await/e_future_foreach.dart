@@ -3,10 +3,10 @@ Future<void> main() async {
 
   final nomes = ['Rodrigo', 'Luana', 'Guilherme', 'Valentina'];
 
-  //nomes.forEach(tratarSaudacao);
+  // nomes.forEach(tratarSaudacao);
 
   // for (var nome in nomes) {
-  //   tratarSaudacao(nome);
+  //   await tratarSaudacao(nome);
   // }
 
   // await Future.forEach<String>(nomes, (nome) async {

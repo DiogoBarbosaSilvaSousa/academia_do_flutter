@@ -50,6 +50,9 @@ void main()
 > Nota: 
 > A instrução print() traz o cursor para a próxima linha enquanto stdout.write() não traz o cursor para a próxima linha, ele permanece na mesma linha.
 
+# Compilando arquivo (comando)
+
+dart compile exe lib/dart_input_out.dart -o bin/dart_input_out.exe
 
 #### Exemplos
 
