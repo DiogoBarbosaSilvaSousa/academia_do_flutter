@@ -6,12 +6,12 @@ import '../../../models/addres.dart';
 import '../../../models/city.dart';
 import '../../../models/phone.dart';
 import '../../../models/student.dart';
-import '../../../repositories/product_repository.dart';
-import '../../../repositories/student_repository.dart';
+import '../../../repositories/product_dio_repository.dart';
+import '../../../repositories/student_dio_repository.dart';
 
 class InsertCommand extends Command {
-  final StudentRepository studentRepository;
-  final ProductRepository productRepository = ProductRepository();
+  final StudentDioRepository studentRepository;
+  final ProductDioRepository productRepository = ProductDioRepository();
 
   @override
   // TODO: implement description
